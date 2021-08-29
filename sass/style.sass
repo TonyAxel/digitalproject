@@ -1,0 +1,776 @@
+body
+    margin: 0 auto
+    display: flex
+    justify-content: center
+    max-width: 1440px
+    
+.conteiner
+    font-family: Roboto,sans-serif
+    color: black
+    width: 1440px
+    padding: 0 136px
+    .head
+        font-weight: 500
+        font-size: 14px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        .head-logo
+            margin: 29px 0 0 0
+            align-items: center
+            img
+                width: 69px
+                height: 41px
+        .head-ul
+            margin-right: 83px
+            display: flex
+            li
+                display: block
+                padding: 0 15px
+                margin: 25px 10px 0    
+                a
+                    text-decoration: none
+                    color: black
+                    letter-spacing: 2px
+            li:hover
+                border-top: 1px solid black
+                border-bottom: 1px solid black         
+    .overview
+        display: flex
+        margin-top: 48px
+        .name-flip-counter
+            align-self: center
+            h1
+                font-size: 64px
+                span
+                    font-weight: 100 
+                    color: lightgrey  
+            button
+                margin-top: 90px
+                background-color: #fff
+                border: 1px solid grey 
+                width: 53px
+                height: 53px
+            button:hover
+                background-color: #F2F2F2
+            .btn-left
+                margin-right: 23px     
+            .proj-flip 
+                margin-top: 90px
+                p
+                    color: #BDBDBD
+                    word-spacing: 10px
+                    font-size: 24px
+                    span    
+                        margin-right: 10px   
+        .view-project
+            display: flex
+            margin-left: 122px 
+            flex-direction: column
+            button
+                width: 222px
+                height: 71px
+                letter-spacing: 2px
+                background-color: #fff
+                border: none
+                margin-top: -71px
+            button:hover
+                border: 2px solid grey 
+                width: 400px
+                transition: 1.5s ease
+    .about
+        background-color:#FBFBFB
+        display: flex
+        margin-top: 120px
+        padding-right: 70px
+        .about-img-one
+            margin-left: 100px
+            img
+                margin-top: 30px
+            img:last-child
+                margin-bottom: -30px    
+        .about-img-two
+            margin-left: 30px
+            img
+                margin-top: 60px  
+        .about-discription 
+            margin-left: 30px
+            h2
+                margin: 0
+                font-size: 64px
+                color: lightgrey
+                font-weight: 100 
+            p
+                margin: 20px 0
+                font-size: 16px
+                line-height: 25px
+                font-weight: 300
+            button
+                background-color: white
+                border: none
+                margin-top: 45px
+                width: 222px
+                height: 71px
+                font-size: 12px
+                letter-spacing: 3px
+                font-weight: 600
+            button:hover
+                transition: 1s ease
+                width: 300px
+                border: 1px solid grey
+    .main-focus
+        margin-top: 120px
+        h2
+            color: lightgrey
+            font-size: 64px
+        .main-discription
+            display: flex
+            .one
+                display: flex
+                min-width: 420px
+                span
+                    font-size: 200px
+                    color: lightgrey
+                    font-weight: 700        
+                p
+                    margin-top: 50px
+                    margin-left: 30px
+                    font-size: 22px
+                    line-height: 25px
+            .two
+                display: flex
+                margin-left: 187px
+                min-width: 420px
+                span
+                    font-size: 200px
+                    color: lightgrey
+                    font-weight: 700        
+                p
+                    margin-top: 50px
+                    margin-left: 40px
+                    font-size: 22px
+                    line-height: 25px
+    .our-projects   //Page Our Projects
+        display: flex
+        flex-direction: column
+        h2
+            font-size: 64px
+            font-weight: 300 
+            color: lightgrey
+        .our-content_img
+            display: flex
+            justify-content: space-between
+            .our-one_img
+                background-image: url("../images/ourproj1.png")
+                width: 570px
+                height: 255px
+                background-repeat: no-repeat
+                font-size: 64px
+                color: white
+                font-weight: 700
+                transition: 2s
+                p
+                    margin: 0
+                    margin-left: 79px
+                    margin-top: 48px
+                    transition: 2s
+                    opacity: 0
+                span
+                    display: block
+                    font-size: 12px
+                    margin-left: 79px
+                    letter-spacing: 3px
+                    transition: 2s
+                    opacity: 0
+            .our-one_img:hover
+                opacity: 0.8
+                p
+                    opacity: 1
+                span
+                    opacity: 1
+            .our-two_img
+                background-image: url("../images/ourproj2.png")
+                width: 570px
+                height: 255px
+                background-repeat: no-repeat
+                font-size: 64px
+                color: black
+                font-weight: 700
+                transition: 2s
+                p
+                    margin: 0
+                    margin-left: 79px
+                    margin-top: 48px
+                    transition: 2s
+                    opacity: 0
+                span
+                    display: block
+                    font-size: 12px
+                    margin-left: 79px
+                    letter-spacing: 3px
+                    transition: 2s
+                    opacity: 0
+            .our-two_img:hover
+                opacity: 0.8
+                p
+                    opacity: 1
+                span
+                    opacity: 1            
+        .our-content_imgg
+            display: flex 
+            justify-content: space-between  
+            margin-top: 30px
+            .our-three_img
+                background-image: url("../images/ourproj3.png")
+                width: 270px
+                height: 255px
+                background-repeat: no-repeat
+                font-size: 64px
+                color: white
+                font-weight: 700
+                transition: 2s
+                p
+                    margin: 0
+                    margin-left: 29px
+                    margin-top: 48px
+                    transition: 2s
+                    opacity: 0
+                span
+                    display: block
+                    font-size: 12px
+                    margin-left: 29px
+                    letter-spacing: 3px
+                    transition: 2s
+                    opacity: 0
+                    color: black
+            .our-three_img:hover
+                opacity: 0.8
+                p
+                    opacity: 1
+                span
+                    opacity: 1     
+            .our-four_img
+                background-image: url("../images/ourproj4.png")
+                width: 470px
+                height: 255px
+                background-repeat: no-repeat
+                font-size: 64px
+                color: black
+                font-weight: 700
+                transition: 2s
+                p
+                    margin: 0
+                    margin-left: 79px
+                    margin-top: 48px
+                    transition: 2s
+                    opacity: 0
+                span
+                    display: block
+                    font-size: 12px
+                    margin-left: 79px
+                    letter-spacing: 3px
+                    transition: 2s
+                    opacity: 0
+                    color: white
+            .our-four_img:hover
+                opacity: 0.8
+                p
+                    opacity: 1
+                span
+                    opacity: 1
+            .our-five_img
+                background-image: url("../images/ourproj5.png")
+                width: 370px
+                height: 255px
+                background-repeat: no-repeat
+                font-size: 64px
+                color: black
+                font-weight: 700
+                transition: 2s
+                p
+                    margin: 0
+                    margin-left: 79px
+                    margin-top: 48px
+                    transition: 2s
+                    opacity: 0
+                span
+                    display: block
+                    font-size: 12px
+                    margin-left: 79px
+                    letter-spacing: 3px
+                    transition: 2s
+                    opacity: 0
+                    color: white
+            .our-five_img:hover
+                opacity: 0.8
+                p
+                    opacity: 1
+                span
+                    opacity: 1
+        .our-projects_btn 
+            margin-left: auto
+            margin-right: 0
+            margin-top: 30px
+            button
+                width: 222px
+                height: 71px
+                letter-spacing: 2px
+                font-size: 12px 
+                background-color: #333
+                color: white     
+                border: none
+                transition: 2s
+            button:hover
+                color: black
+                background-color: white
+                border: 3px solid gray
+    .contact-us
+        h2
+            font-weight: 300
+            font-size: 64px
+            color: lightgrey
+            margin-top: 120px
+        .contact-us_inputs-img
+            display: flex
+            justify-content: space-between
+            .contact-us_inputs
+                display: flex
+                flex-direction: column
+                input
+                    width: 391px
+                    height: 46px
+                    margin-top: 10px
+                    border: none
+                    background-color: #f3f3f3
+                    outline: none
+                    padding-left: 21px
+                    font-size: 14px
+                input::placeholder
+                    font-size: 14px
+                    letter-spacing: 1px
+                    font-weight: 400
+                .contact-us_inputs_meseg
+                    width: 372px
+                    height: 121px
+                    resize: none
+                    margin-top: 10px
+                    border: none
+                    background-color: #F3F3F3
+                    outline: none 
+                    font-size: 14px
+                    padding: 14px 21px
+                    font-family: Roboto, sans-serif
+                    font-weight: 400
+            .contact-us_img
+                background-image: url("../images/contactup.png")
+                background-repeat: no-repeat 
+                width: 749px
+                height: 369px
+                margin-top: 22px
+        .contact-us_btn
+            margin-top: 77px
+            button
+                width: 222px
+                height: 71px
+                background-color: #333
+                color: white
+                letter-spacing: 2px
+                font-size: 12px
+                border: none
+                transition: 2s
+            button:hover
+                border: 3px solid grey
+                color: black
+                background-color: white 
+    .basement
+        background-color: #333
+        color: white
+        margin-top: 120px
+        display: flex
+        flex-direction: column
+        h4
+            margin: 0
+            font-size: 16px
+            font-weight: 700
+        .basement-container
+            display: flex
+            justify-content: space-between 
+            padding: 58px 212px 0 116px  
+            .basement-information
+                ul
+                    padding: 0
+                    margin-top: 25px    
+                    li
+                        list-style-type: none
+                        margin-top: 16px
+                        a
+                            text-decoration: none
+                            color: white
+                        a:hover
+                            border-top: 1px solid white
+                            border-bottom: 1px solid white
+            .basement-contacts
+                .basement-contacts_place
+                    display: flex
+                    margin-top: 25px
+                    p
+                        margin-left: 19px
+                        margin-top: 10px
+                .basement-contacts_phone
+                    display: flex
+                    p
+                        margin-left: 19px
+                        margin-top: 2px
+                .basement-contacts_email
+                    display: flex
+                    p
+                        margin-left: 19px
+                        margin-top: 0px
+            .basement-social
+                .basement-social_img
+                    margin-top: 26px
+                    display: flex
+                    justify-content: space-between
+                    a
+                        margin-left: 40px
+                    a:first-child
+                        margin: 0
+        .basement-year
+            text-align: center
+            margin-top: 60px
+            padding: 24px 0
+            border-top: 1px solid grey
+            font-family:Open Sans, sans-serif
+            font-size: 12px
+            color: #C8C8C8
+            opacity: 0.5                   
+    .photo-gallery //page Gallery
+        h1
+            color: lightgrey
+            font-size: 64px
+            font-weight: lighter
+            span
+                color: black
+                font-weight: bold
+    .photo-gallery_painting
+        border-top: 1px solid lightgray
+        margin-top: 30px
+        .photo-gallery_painting-ro
+            margin-top: 30px
+            display: flex
+            justify-content: space-between
+        .photo-gallery_painting-rt
+            margin-top: 30px
+            display: flex
+            justify-content: space-between 
+    .counter-btn
+        display: flex
+        margin-top: 60px
+        p
+            font-size: 24px
+            color: lightgrey
+            span:first-child
+                margin-right: 5px
+            span:last-child
+                margin-left: 5px
+        button
+            margin-left: 30px
+            width: 53px
+            height: 53px
+            border: 1px solid lightgrey
+            background-color: #fff
+        button:hover
+            background-color: #F9F9F9 
+    .our-projects
+        h1
+            color: lightgrey
+            font-size: 64px
+            font-weight: lighter
+            span
+                color: black
+                font-weight: bold
+    .all-projects
+        margin-top: 30px
+        .all-projects-sample_one
+            display: flex
+            margin-top: 30px
+            background-color: #fbfbfb
+            padding-right: 70px
+            form
+                display: flex
+                .all-projects-sample_one-description
+                    margin-left: 30px
+                    h2
+                        margin-top: 30px
+                        margin-bottom: 73px
+                        font-size: 40px
+                        font-weight: lighter
+                        color: lightgrey
+                    p
+                        margin: 0
+                        font-size: 16px
+                        font-weight: lighter
+                        line-height: 25px
+                        margin-bottom: 64px
+                    button
+                        width: 222px
+                        height: 71px
+                        background-color: white
+                        border: none
+                        letter-spacing: 2px
+                        font-size: 12px
+                        transition: 1s
+                    button:hover
+                        color:#fff
+                        background-color: #000
+        .all-projects-sample_two
+            display: flex
+            margin-top: 60px
+            background-color: #fbfbfb
+            padding-right: 70px
+            .all-projects-sample_two-description
+                margin-left: 30px
+                h2
+                    margin-top: 30px
+                    margin-bottom: 73px
+                    font-size: 40px
+                    font-weight: lighter
+                    color: lightgrey
+                p
+                    margin: 0
+                    font-size: 16px
+                    font-weight: lighter
+                    line-height: 25px
+                    margin-bottom: 64px
+                button
+                    width: 222px
+                    height: 71px
+                    background-color: white
+                    border: none
+                    letter-spacing: 2px
+                    font-size: 12px
+                    transition: 1s
+                button:hover
+                    color:#fff
+                    background-color: #000            
+        .all-projects-sample_free
+            display: flex
+            margin-top: 60px
+            background-color: #fbfbfb
+            padding-right: 70px
+            .all-projects-sample_free-description
+                margin-left: 30px
+                h2
+                    margin-top: 30px
+                    margin-bottom: 73px
+                    font-size: 40px
+                    font-weight: lighter
+                    color: lightgrey
+                p
+                    margin: 0
+                    font-size: 16px
+                    font-weight: lighter
+                    line-height: 25px
+                    margin-bottom: 64px
+                button
+                    width: 222px
+                    height: 71px
+                    background-color: white
+                    border: none
+                    letter-spacing: 2px
+                    font-size: 12px
+                    transition: 1s
+                button:hover
+                    color:#fff
+                    background-color: #000
+    .samp-proj_h1 //Page Sample Project 1 
+        h1
+            color: lightgrey
+            font-size: 64px
+            font-weight: lighter
+            span
+                color: black
+                font-weight: bold
+    .samp-proj_overview
+        margin-top: 30px
+        border-top: 1px solid lightgrey
+        img
+            margin-top: 30px    
+    .samp-proj_img-discription
+        display: flex
+        margin-top: 30px
+        p
+            margin: 0 0 0 30px
+            font-weight: lighter
+            line-height: 25px
+            font-size: 16px
+    .samp-proj_maket_img
+        margin-top: 30px
+    .certifications_h1 // Page Certifications
+        margin-bottom: 704px
+        h1
+            color: lightgrey
+            font-size: 64px
+            font-weight: lighter
+            span
+                color: black
+                font-weight: bold
+.conteiner-contacts
+    font-family: Roboto,sans-serif
+    color: black
+    width: 1440px
+    padding: 0 0 0 136px
+    .head
+        font-weight: 500
+        font-size: 14px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-right: 136px
+        .head-logo
+            margin: 29px 0 0 0
+            align-items: center
+            img
+                width: 69px
+                height: 41px
+        .head-ul
+            margin-right: 83px
+            display: flex
+            li
+                display: block
+                padding: 0 15px
+                margin: 25px 10px 0    
+                a
+                    text-decoration: none
+                    color: black
+                    letter-spacing: 2px
+            li:hover
+                border-top: 1px solid black
+                border-bottom: 1px solid black
+    .contact-information-maps // Contact Information
+        display: flex
+        .contact-information
+            margin-top: 63px
+            .con_info
+                color: lightgrey
+                font-size: 64px
+                font-weight: lighter
+                span
+                    color: black
+                    font-weight: bold
+            .company_name
+                margin-top: 34px
+                font-size: 18px
+                font-weight: bold
+                span
+                    font-size: 16px
+                    font-weight: lighter
+            .number
+                margin-top: 44px
+                font-size: 18px
+                font-weight: bold
+            .email
+                margin-top: 53px
+                font-size: 16px
+                font-weight: lighter
+            button
+                width: 222px
+                height: 71px
+                margin-top: 33px
+                border: none
+                color: #fff
+                background-color: #333
+                transition: 1s
+                font-size: 12px
+                letter-spacing: 2px
+            button:hover
+                background-color: #fff
+                color: #333
+        .maps
+            position: relative
+            margin-left: 177px
+            .tag_in-map
+                position: absolute
+                background-color: #CECECE
+                width: 55px
+                height: 55px
+                opacity: 0.7 
+                border-radius: 50%
+                display: flex
+                justify-content: center
+                align-items: center
+                margin-left: 530px
+                margin-top: -320px
+                .tag_in-map-black
+                    width: 30px
+                    height: 30px
+                    background-color: black
+                    border-radius: 50%
+                    opacity: 1
+    .basement                
+        background-color: #333
+        color: white
+        margin-top: 112px
+        display: flex
+        flex-direction: column
+        h4
+            margin: 0
+            font-size: 16px
+            font-weight: 700
+        .basement-container
+            display: flex
+            justify-content: space-between 
+            padding: 58px 212px 0 116px  
+            .basement-information
+                ul
+                    padding: 0
+                    margin-top: 25px    
+                    li
+                        list-style-type: none
+                        margin-top: 16px
+                        a
+                            text-decoration: none
+                            color: white
+                        a:hover
+                            border-top: 1px solid white
+                            border-bottom: 1px solid white
+            .basement-contacts
+                .basement-contacts_place
+                    display: flex
+                    margin-top: 25px
+                    p
+                        margin-left: 19px
+                        margin-top: 10px
+                .basement-contacts_phone
+                    display: flex
+                    p
+                        margin-left: 19px
+                        margin-top: 2px
+                .basement-contacts_email
+                    display: flex
+                    p
+                        margin-left: 19px
+                        margin-top: 0px
+            .basement-social
+                .basement-social_img
+                    margin-top: 26px
+                    display: flex
+                    justify-content: space-between
+                    a
+                        margin-left: 40px
+                    a:first-child
+                        margin: 0
+        .basement-year
+            text-align: center
+            margin-top: 60px
+            padding: 24px 0
+            border-top: 1px solid grey
+            font-family:Open Sans, sans-serif
+            font-size: 12px
+            color: #C8C8C8
+            opacity: 0.5       
+
+        
+
+
+
